@@ -71,7 +71,7 @@ API.
 					<target>1.4</target>
 					<debug>true</debug>
 					<fork>true</fork>
-					<executable>${JAVA_1_4_HOME}/bin/javac</executable>
+					<executable>${JAVA_HOME}/bin/javac</executable>
 					<!--
 					<executable>${JAVA5_HOME}/bin/javac</executable>
 					-->
@@ -347,12 +347,13 @@ API.
             <version>2.3</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>net.sourceforge</groupId>
-            <artifactId>barbecue</artifactId>
-            <version>1.1</version>
-            <optional>true</optional>
-        </dependency>
+		<dependency>
+			<groupId>net.sourceforge.barbecue</groupId>
+			<artifactId>barbecue</artifactId>
+			<version>1.5-beta1</version>
+			<optional>true</optional>
+		</dependency>
+       
         <dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
